@@ -11,10 +11,6 @@
 
 <br>
 
-<p align="center">
-  <img alt="dev.finances" src=".github/devfinances.png" width="100%">
-</p>
-
 ## 👷 Disclaimer 
 
 Projeto desenvolvido durante a maratona Discover #1 da Rocketseat. 
