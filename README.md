@@ -10,10 +10,7 @@
   <a href="#memo-licença">Licença</a>
 </p>
 
-<p align="center">
-  <img alt="dev.finances" src=".github/devfinances.png" width="100%">
-</p>
-
+![devfinances](https://user-images.githubusercontent.com/81590952/114064038-9e538e80-986f-11eb-82b0-283f53dd141b.png)
 
 <br>
 
