@@ -39,6 +39,7 @@ O dev.finances é uma aplicação de controle financeiro, onde é possível cada
 ## 💻 Customização
 
 Customizei algumas cores para combinarem com a linguagem visual que geralmente utilizo. Também adicionei um botão para utilizar a aplicação em modo escuro. 
+<br>
 *I custom some of the project colors, to match my visual identity. Also, added a button to change the application to dark mode.*
 
 ## 📝 Licença
