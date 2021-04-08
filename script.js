@@ -113,7 +113,6 @@ const DOM = {
     }
 }
 
-// data organization 
 const Utils = {
     formatAmount(value){
         value = Number(value.replace(/\,\./g, "")) * 100
@@ -142,52 +141,6 @@ const Utils = {
     }
 }
 
-// dark mode
-const html = document.querySelector("html")
-const checkbox = document.querySelector("input[name=theme]")
-
-const getStyle = (element, style) => 
-    window
-        .getComputedStyle(element)
-        .getPropertyValue(style)
-
-
-const initialColors = {
-    bg: getStyle(html, "--bg"),
-    bgHeader: getStyle(html, "--bgHeader"),
-    bgPanel: getStyle(html, "--bg-panel"),
-    colorHeadings: getStyle(html, "--color-headings"),
-    colorText: getStyle(html, "--color-text"),
-    colorFooter: getStyle(html, "--color-text"),
-}
-
-const darkMode = {
-    bg: "#333333",
-    bgHeader: "#6B6B6B",
-    bgPanel: "#434343",
-    colorHeadings: "#3664FF",
-    colorText: "#B5B5B5",
-    colorFooter:"#B5B5B5",
-}
-
-const transformKey = key => 
-    "--" + key.replace(/([A-Z])/, "-$1").toLowerCase()
-
-
-const changeColors = (colors) => {
-    Object.keys(colors).map(key => 
-        html.style.setProperty(transformKey(key), colors[key]) 
-    )
-}
-
-
-checkbox.addEventListener("change", ({target}) => {
-    target.checked ? changeColors(darkMode) : changeColors(initialColors)
-})
-
-
-
-// forms
 const Form = {
     description: document.querySelector('input#description'),
     amount: document.querySelector('input#amount'),
